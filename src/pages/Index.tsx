@@ -67,15 +67,7 @@ const Index = () => {
 
 
 
-              <div className="space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto">
-                  <span className="text-3xl font-bold">3</span>
-                </div>
-                <h4 className="text-xl font-semibold">Выиграйте NFT</h4>
-                <p className="text-muted-foreground">
-                  Следуйте инструкциям и получите шанс выиграть уникальный NFT
-                </p>
-              </div>
+
             </div>
 
             <div className="pt-12">
