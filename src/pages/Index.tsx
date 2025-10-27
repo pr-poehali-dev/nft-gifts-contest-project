@@ -53,13 +53,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="mt-20 max-w-5xl mx-auto">
-            <img 
-              src="https://cdn.poehali.dev/projects/55d8046f-bd39-44a0-821d-261c4751a210/files/44c38fc5-bfc9-4382-9502-9e54ac74f505.jpg" 
-              alt="NFT Background" 
-              className="rounded-2xl shadow-2xl animate-scale-in"
-            />
-          </div>
+
         </section>
 
 
