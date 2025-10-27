@@ -50,16 +50,6 @@ const Index = () => {
                 <Icon name="Gift" size={24} className="mr-2" />
                 Участвовать в конкурсах
               </Button>
-              
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary/10 text-lg px-8 py-6"
-                onClick={() => document.getElementById('contests')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Узнать больше
-                <Icon name="ArrowDown" size={20} className="ml-2" />
-              </Button>
             </div>
           </div>
 
@@ -72,113 +62,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="contests" className="container mx-auto px-4 py-20">
-          <div className="text-center mb-16 animate-fade-in">
-            <h3 className="text-4xl md:text-5xl font-bold mb-4">
-              Актуальные конкурсы
-            </h3>
-            <p className="text-xl text-muted-foreground">
-              Выбирайте конкурс и выигрывайте уникальные NFT
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="p-6 bg-card border-border hover:border-primary transition-all duration-300 hover:scale-105 animate-fade-in">
-              <div className="mb-6">
-                <img 
-                  src="https://cdn.poehali.dev/projects/55d8046f-bd39-44a0-821d-261c4751a210/files/0b20e9a9-f954-4bda-a0c5-afb42359b008.jpg" 
-                  alt="NFT Gift" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Trophy" size={24} />
-                  <h4 className="text-2xl font-bold">Mystery Box</h4>
-                </div>
-                
-                <p className="text-muted-foreground">
-                  Откройте загадочный бокс и получите случайный NFT из коллекции. Призовой фонд: 50+ уникальных NFT
-                </p>
-                
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Icon name="Users" size={16} />
-                  <span>1,234 участников</span>
-                </div>
-                
-                <Button 
-                  className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
-                  onClick={() => window.open('https://t.me/nftx', '_blank')}
-                >
-                  Участвовать
-                </Button>
-              </div>
-            </Card>
-
-            <Card className="p-6 bg-card border-border hover:border-primary transition-all duration-300 hover:scale-105 animate-fade-in">
-              <div className="mb-6">
-                <img 
-                  src="https://cdn.poehali.dev/projects/55d8046f-bd39-44a0-821d-261c4751a210/files/d1fa1904-1e09-47df-bd2d-c39abb334004.jpg" 
-                  alt="Contest Prize" 
-                  className="w-full h-48 object-cover rounded-lg"
-                />
-              </div>
-              
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 text-secondary">
-                  <Icon name="Sparkles" size={24} />
-                  <h4 className="text-2xl font-bold">Grand Prize</h4>
-                </div>
-                
-                <p className="text-muted-foreground">
-                  Главный конкурс месяца! Выигрывайте эксклюзивные NFT стоимостью до $5,000. Один победитель получит всё
-                </p>
-                
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Icon name="Users" size={16} />
-                  <span>5,678 участников</span>
-                </div>
-                
-                <Button 
-                  className="w-full bg-gradient-to-r from-secondary to-primary hover:opacity-90"
-                  onClick={() => window.open('https://t.me/nftx', '_blank')}
-                >
-                  Участвовать
-                </Button>
-              </div>
-            </Card>
-
-            <Card className="p-6 bg-card border-border hover:border-primary transition-all duration-300 hover:scale-105 animate-fade-in">
-              <div className="mb-6 flex items-center justify-center h-48 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg">
-                <Icon name="Calendar" size={80} className="text-primary" />
-              </div>
-              
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Zap" size={24} />
-                  <h4 className="text-2xl font-bold">Daily Drop</h4>
-                </div>
-                
-                <p className="text-muted-foreground">
-                  Ежедневные розыгрыши NFT! Новый конкурс каждый день в 12:00 UTC. Быстрая регистрация за 1 клик
-                </p>
-                
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Icon name="Users" size={16} />
-                  <span>892 участников</span>
-                </div>
-                
-                <Button 
-                  className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90"
-                  onClick={() => window.open('https://t.me/nftx', '_blank')}
-                >
-                  Участвовать
-                </Button>
-              </div>
-            </Card>
-          </div>
-        </section>
 
         <section className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
