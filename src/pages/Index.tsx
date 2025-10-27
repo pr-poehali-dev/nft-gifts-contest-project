@@ -21,7 +21,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity"
-            onClick={() => window.open('https://t.me/nftx', '_blank')}
+            onClick={() => window.open('https://t.me/+Qhg9tGuw1axjYTZi', '_blank')}
           >
             <Icon name="Send" size={20} className="mr-2" />
             Telegram NFT X
@@ -45,7 +45,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all hover:scale-105 text-lg px-8 py-6"
-                onClick={() => window.open('https://t.me/nftx', '_blank')}
+                onClick={() => window.open('https://t.me/+Qhg9tGuw1axjYTZi', '_blank')}
               >
                 <Icon name="Gift" size={24} className="mr-2" />
                 Участвовать в конкурсах
@@ -92,7 +92,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all hover:scale-105 text-xl px-12 py-7"
-                onClick={() => window.open('https://t.me/nftx', '_blank')}
+                onClick={() => window.open('https://t.me/+Qhg9tGuw1axjYTZi', '_blank')}
               >
                 <Icon name="Send" size={24} className="mr-2" />
                 Присоединиться к NFT X
@@ -122,7 +122,7 @@ const Index = () => {
                   variant="ghost" 
                   size="icon"
                   className="hover:text-primary transition-colors"
-                  onClick={() => window.open('https://t.me/nftx', '_blank')}
+                  onClick={() => window.open('https://t.me/+Qhg9tGuw1axjYTZi', '_blank')}
                 >
                   <Icon name="Send" size={24} />
                 </Button>
