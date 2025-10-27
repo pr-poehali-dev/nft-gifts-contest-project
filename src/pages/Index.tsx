@@ -65,15 +65,7 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8 pt-12">
 
 
-              <div className="space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto">
-                  <span className="text-3xl font-bold">2</span>
-                </div>
-                <h4 className="text-xl font-semibold">Выберите конкурс</h4>
-                <p className="text-muted-foreground">
-                  Изучите активные конкурсы и выберите тот, который вам нравится
-                </p>
-              </div>
+
 
               <div className="space-y-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto">
