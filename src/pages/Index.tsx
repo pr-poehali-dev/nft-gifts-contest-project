@@ -60,9 +60,7 @@ const Index = () => {
 
         <section className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-            <h3 className="text-4xl md:text-5xl font-bold">
-              Как начать участвовать?
-            </h3>
+
             
             <div className="grid md:grid-cols-3 gap-8 pt-12">
 
